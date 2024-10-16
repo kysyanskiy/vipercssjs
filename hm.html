@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Metal</title>
+    <link rel="stylesheet" href="hm.css">
+</head>
+<body>
+    <h1>Heavy Metal</h1>
+    <img src="https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F46f5c2d2cedd8f40fcc78a83c1fdcfb9.1000x1000x1.png">
+    <p>Перший спільний альбом <a href="Kai.html">Кая</a> та <a href="9mice.html">Майса</a></p>
+    <form>
+        <select onchange="navigateToPage(this.value)">
+            <option value="index.html">Головна</option>
+            <option value="hm2.html">Heavy Metal 2</option>
+            <option value="hm.html">Heavy Metal</option>
+            <option value="kai.html">Kai Angel</option>
+            <option value="9mice.html">9mice</option>
+            <option value="bw.html">Версія браузера</option>
+        </select>
+    </form>
+    <script>
+        function navigateToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+    <h3>Трекліст</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Назва</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Lipstick</td></tr>
+            <tr><td>2</td><td>n1chogo</td></tr>
+            <tr><td>3</td><td>heavy metal</td></tr>
+            <tr><td>4</td><td>Aquafina</td></tr>
+            <tr><td>5</td><td>Resident</td></tr>
+            <tr><td>6</td><td>author331</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
+

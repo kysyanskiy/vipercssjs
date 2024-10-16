@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картинки</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <h2><a href="index.html">Назад</a></h2>
+<h1>Виберіть зображення</h1>
+
+<form>
+    <input type="radio" name="image" value="https://png.klev.club/uploads/posts/2024-05/png-klev-club-ux4b-p-rekrut-dota-2-png-6.png" onclick="showImage(this.value)"> Image 1
+    <input type="radio" name="image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjNZ15TxuSEyYBQt3apsanYRgoWDb4fpdo--XdHOjpqIsmZ7npX575Ix2euprNDL5QhiY&usqp=CAU" onclick="showImage(this.value)"> Image 2
+    <input type="radio" name="image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr29F8sNOCnLG7C5ZC75Q0SihIqjRIJh-L2g&s" onclick="showImage(this.value)"> Image 3
+    <input type="radio" name="image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiXLy40owaKkCjyCKnVQPIsjvK-W0yHQPkmw&s" onclick="showImage(this.value)"> Image 4
+    <input type="radio" name="image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmh0u4fIkUJgKeAZU-jsSgL_euQRXR69gaQ&s" onclick="showImage(this.value)"> Image 5
+</form>
+
+<img id="displayImage" style="display: block; margin-top: 10px; max-width: 300px; max-height: 300px;">
+
+<script>
+function showImage(imageUrl) {
+    const imgElement = document.getElementById('displayImage');
+    if (imageUrl) {
+        imgElement.src = imageUrl;
+}
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background:url(https://kartinki.pics/uploads/posts/2022-03/thumbs/1648084180_32-kartinkin-net-p-belie-oboi-kartinki-32.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: darkslategrey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    background-color: beige;
+    text-align: center;
+    display: inline;
+    margin:15px;
+}
+
+a {
+    text-align: center;
+    color: black;
+}
+
+a:hover {
+    color: blue; 
+}
+
+footer {
+    background: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

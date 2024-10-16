@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai Angel - English</title>
+    <link rel="stylesheet" href="kai.css">
+</head>
+<body>
+    <script>
+        function navigateToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+    <form>
+        <select onchange="changeLanguage(this.value)">
+            <option value="ua">Choose your launguage</option>
+            <option value="ua">UA</option>
+            <option value="eng">ENG</option>
+            <option value="jp">JAPAN</option>
+        </select>
+    </form>
+    <script>
+        function changeLanguage(lang) {
+            if (lang === 'eng') {
+                window.location.href = 'kai_en.html';
+            } else if (lang === 'jp') {
+                window.location.href = 'kai_jp.html';
+            }
+            else if (lang === 'ua') {
+                window.location.href = 'kai.html';
+            }
+        }
+    </script>
+    <h1 style="color:darkgray"><u>Dmytro Olekhovych Itskov</u></h1>
+    <form>
+        <select onchange="navigateToPage(this.value)">
+            <option value="index.html">Головна</option>
+            <option value="hm2.html">Heavy Metal 2</option>
+            <option value="hm.html">Heavy Metal</option>
+            <option value="kai.html">Kai Angel</option>
+            <option value="9mice.html">9mice</option>
+            <option value="bw.html">Версія браузера</option>
+        </select>
+    </form>
+    <script>
+        function navigateToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+    <h2>(born on February 4, 1997)</h2>
+    <h2>rap artist, producer, sound engineer, and member of the creative duo <a href="https://genius.com/artists/Viperr">VIPERR.</a></h2>
+    <h2>Previously released music under the nickname zavet. Gained fame due to his unique sound,</h2>
+    <h2>broken rhythm execution, and unusual approach to instrumentation.</h2>
+    <img src="https://i.pinimg.com/736x/c5/1b/c4/c51bc4a93aaf1a00cd11a19e5dd64566.jpg" alt="Kai Angel">
+</body>
+</html>
